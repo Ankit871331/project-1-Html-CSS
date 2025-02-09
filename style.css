@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ html,body{
+    width: 100%;
+    height: 100%;
+
+ }
+
+ #main{
+    height: 85%;
+    width: 85%;
+    background-color: rgb(210, 226, 221);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+
+   
+ }
+
+ #nav{
+    height: 100px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+ }
+
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#nav h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#ic{
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+
+#btn2{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+#or{
+    font-size: 140px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.image-stack {
+    position: relative;
+    width: 300px; /* Adjust size */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image-stack img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-stack:hover img:nth-child(1) { transform: rotate(-20deg) translateX(-20px); }
+  .image-stack:hover img:nth-child(2) { transform: rotate(-15deg) translateX(-10px); }
+  .image-stack:hover img:nth-child(3) { transform: rotate(-10deg) translateX(0px); }
+  .image-stack:hover img:nth-child(4) { transform: rotate(0deg) translateX(10px); }
+  
+  
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+
+#web{
+   background-color: rgb(247, 240, 240);
+}
+
+#icon{
+    background-color: none;
+    position: absolute;
+    bottom: 6%;
+    right: 10%;
+    font-size: 17px;
+    display: flex;
+}
+#h5{
+
+    position: absolute;
+    bottom: 3%;
+    right: 5.2%;
+    font-size: 17px;
+    display: flex;
+}
+
+
+
